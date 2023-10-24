@@ -1,2 +1,5 @@
 document.getElementById("logoUleth").innerHTML = "";
-document.getElementById("logoUleth").insertBefore("University of Louisville", null);
+var elm = document.createElement("h1");
+elm.innerHTML = "UNIVERSITY OF BESTBRIDGE"
+elm.style.color = "white";
+document.getElementById("logoUleth").replaceWith(elm);
